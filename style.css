@@ -1,0 +1,290 @@
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d50729; /* Cor da parte da barra de rolagem que o usuário arrasta */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #3B3486; /* Cor da parte da barra de rolagem que não está sendo arrastada pelo usuário */
+}
+
+
+body{
+    background-color: #3B3486;
+    height: 2800px;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+
+.iconsaitama{
+    cursor: grab;
+    border-radius: 400px;
+    width: 80px; /* Largura desejada */
+    height: 80px; /* Altura desejada */
+}
+
+.iconnav{
+    position: absolute;
+    left: 900px;
+    bottom: 810px;
+}
+
+header{
+    padding: 10px 60px;
+}
+
+.h1-1{
+    font-size: 19px;
+    font-family:'Work Sans';
+    color: #F8F4EC;
+}
+
+.h1-2{
+    font-size: 40px;
+    color: #F8F4EC;
+    position: absolute;
+    bottom: 800px;
+    left: 160px;
+    font-family: 'Segoe UI';
+}
+
+
+nav a {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: #f8efec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    
+}
+
+nav a:hover{
+    transform: translateY(4px); 
+}
+
+nav{
+    position: absolute;
+    left: 1500px;
+    top: 55px;
+}
+
+
+
+.main{
+    margin-top: 250px;
+    padding: 0px 300px;
+}
+
+.Main-h3{
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    color: #F8F4EC;
+    margin: 0px;
+}
+
+.paragrafo-main1{
+    font-size: 20px;
+    color: #F8F4EC;
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+
+.img1{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    border-radius: 900px;
+}
+
+.btn1{
+    padding-top: 50px;
+    padding-left: 430px;
+}
+
+.aumentar{
+    color: aliceblue;
+    border-color: #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 210px;
+    height: 40px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.aumentar:hover{
+    cursor:grab ;
+    background-color: #362087;
+    color: #eee;
+    border-color: #bbbbbb;
+}
+
+/* SOBRE MIM: CSS*/
+
+
+
+.h1-5{
+    position: absolute;
+    top: 850px;
+    left: 160px;
+    margin: 400px;
+    color: #F8F4EC;
+    font-family: 'Work Sans' ;
+}
+
+.hr1{
+    margin-left: 840px;
+    margin-top: 300px; /* Espaçamento superior */
+    margin-bottom: 90px; /* Espaçamento inferior */
+    position: absolute;
+    width: 250px;
+    
+}
+
+.retangulo{
+    position: absolute;
+    border-radius: 150px;
+    top: 1200px;
+    left: 170px;
+    width: 900px; /* Defina a largura desejada */
+    height: 300px; /* Defina a altura desejada */
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid #362087;; /* Borda opcional */
+}
+
+.foto1{
+    position: absolute;
+    top: 1100px;
+    left: 1200px;
+    border-radius: 200px;
+    cursor: grab;
+}
+
+
+
+.paragrafo-2{
+    position: absolute;
+    top: 1300px;
+    left: 220px;
+    color: #F8F4EC;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font: bold;
+}
+
+.temponeimg{
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+}
+
+.tempone{
+    position: absolute;
+    border-radius: 150px;
+    top: 1970px;
+    left: 750px;
+    width: 900px; /* Defina a largura desejada */
+    height: 600px; /* Defina a altura desejada */
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid #362087;; /* Borda opcional */
+}
+
+.titulotemporadatres-1{
+    position: absolute;
+    top: 1980px;
+    left: 1100px;
+    color: #F8F4EC;
+    font-family: 'Work Sans' ;
+    font-size: 19px;
+}
+
+.paragrafo-terceira-temp{
+    position: absolute;
+    top: 2060px;
+    left: 800px;
+    color: #F8F4EC;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font: bold;
+}
+
+.titulotemporadatres-2{
+    position: absolute;
+    top: 2220px;
+    left: 1075px;
+    color: #F8F4EC;
+    font-family: 'Work Sans' ;
+    font-size: 15px;
+}
+
+.paragrafo-terceira-temp-2{
+    position: absolute;
+    top: 2290px;
+    left: 800px;
+    color: #F8F4EC;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font: bold;
+}
+
+.hrterceiratemp{
+    margin-left: 840px;
+    margin-top: 1170px; /* Espaçamento superior */
+    margin-bottom: 90px; /* Espaçamento inferior */
+    position: absolute;
+    width: 250px;
+}
+
+
+/* RODAPÉ */
+
+.titulorodape-1{
+    position: absolute;
+    top: 2800px;
+    left: 1670px;
+    font-family: 'Segoe UI';
+    font-size: 10px;
+    color: #B4B4B8;
+}
+
+.Titulorodape-2{
+    position: absolute;
+    top: 2800px;
+    left: 50px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: #B4B4B8;
+}
+
+.paragrafoslinks-1{
+    position: absolute;
+    top: 2810px;
+    left: 40px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+.um{
+    color: #B4B4B8;
+}
+
+.dois{
+    color: #B4B4B8;
+}
+
+.rodape{
+    background: #362087;
+    margin-left: 250px;
+    margin-top: 2300px; /* Espaçamento superior */
+    margin-bottom: 90px; /* Espaçamento inferior */
+    position: absolute;
+    width: 1300px;
+}
